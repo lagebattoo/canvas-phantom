@@ -1,0 +1,13 @@
+{
+  "name": "canvas-phantom",
+  "version": "0.1.4",
+  "private": true,
+  "description": "Canvas page privacy and browser event research; local Chrome extension",
+  "scripts": {
+    "test": "node --test tests/core.test.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "SEE LICENSE IN LICENSE"
+}

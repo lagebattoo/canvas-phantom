@@ -1,0 +1,15 @@
+node_modules/
+dist/
+test-output/
+reference/
+revisions/
+rollback-tests/
+*.log
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+*.zip
+.DS_Store
+Thumbs.db
