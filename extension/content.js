@@ -80,8 +80,8 @@ button.on{background:#185f57;color:#bdfff0}button:disabled{opacity:.5}
 #panel{pointer-events:auto;position:absolute;right:0;top:55px;width:min(320px,calc(100vw - 16px));overflow:auto;background:#fff;color:#172c43;border:1px solid #d6e1e9;border-radius:15px;box-shadow:0 12px 36px #00102033;padding:17px}
 [hidden]{display:none!important}h2{font-size:15px;margin:0 0 15px}.row{display:flex;justify-content:space-between;gap:15px;padding:7px 0;border-bottom:1px solid #edf1f5}.small{font-size:11px;color:#64758a;line-height:1.7}#note{margin-top:13px;color:#465e74;overflow-wrap:anywhere}
 </style>
-<div class="bar" role="toolbar" aria-label="Canvas Local 页面功能">
-<button id="grip" aria-label="拖动工具栏；方向键移动" title="拖动；方向键移动">⠿</button><span class="brand">CL</span>
+<div class="bar" role="toolbar" aria-label="Canvas Phantom 页面功能">
+<button id="grip" aria-label="拖动工具栏；方向键移动" title="拖动；方向键移动">⠿</button><span class="brand" title="Canvas Phantom · 幻影">CP</span>
 <button id="master" aria-label="总开关">总开关</button>
 <button id="focus" aria-label="焦点处理">焦点</button>
 <button id="clean" aria-label="隐藏文本清理">清理</button>
@@ -89,7 +89,7 @@ button.on{background:#185f57;color:#bdfff0}button:disabled{opacity:.5}
 <button id="hide" aria-label="隐藏工具栏；可在插件弹窗重新开启">×</button>
 </div>
 <section id="panel" hidden aria-label="实时运行状态">
-<h2>运行状态 · 本页</h2>
+<h2>Canvas Phantom · 运行状态</h2>
 <div class="row"><span>焦点处理</span><strong id="f-state"></strong></div>
 <div class="row"><span>已拦截页面事件</span><strong id="f-events">0</strong></div>
 <div class="row"><span>已拦截元素监听注册</span><strong id="f-registrations">0</strong></div>

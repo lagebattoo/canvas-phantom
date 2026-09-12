@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Canvas Local · 页面助手",
-  "version": "0.1.4",
+  "name": "Canvas Phantom · 幻影",
+  "version": "0.1.5",
   "minimum_chrome_version": "120",
   "description": "普通 HTTP/HTTPS 网页及符合条件子框架的焦点处理、指定正文隐藏文本清理与本地状态工具栏。",
   "permissions": [
@@ -18,7 +18,7 @@
   },
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Canvas Local · 页面助手"
+    "default_title": "Canvas Phantom · 幻影"
   },
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'none'; connect-src 'none'; base-uri 'none'"

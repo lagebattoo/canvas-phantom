@@ -10,3 +10,7 @@ header h1, header p { white-space:nowrap; }
 main { flex:1 1 auto; min-height:0; overflow-x:hidden; overflow-y:auto; scrollbar-gutter:stable; overscroll-behavior:contain; }
 .setting > span { min-width:0; }
 #status { overflow-wrap:anywhere; }
+
+/* v0.1.5: fit the longer brand without changing the stable popup viewport. */
+header h1 { font-size:16px; letter-spacing:-.4px; }
+header p { font-size:10px; }

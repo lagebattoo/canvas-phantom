@@ -95,5 +95,5 @@ chrome.runtime.onMessage.addListener((message,sender,respond)=>{
   return true;
 });
 async function startup() { const cfg=await config(); await register(cfg); await chrome.storage.local.set({settings:cfg}); }
-chrome.runtime.onInstalled.addListener(()=>serialize(startup).catch(error=>console.error("[Canvas Local] 注册失败",error.message)));
-chrome.runtime.onStartup.addListener(()=>serialize(startup).catch(error=>console.error("[Canvas Local] 启动失败",error.message)));
+chrome.runtime.onInstalled.addListener(()=>serialize(startup).catch(error=>console.error("[Canvas Phantom] 注册失败",error.message)));
+chrome.runtime.onStartup.addListener(()=>serialize(startup).catch(error=>console.error("[Canvas Phantom] 启动失败",error.message)));
